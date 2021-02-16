@@ -1,5 +1,9 @@
 public class Main {
-  public static void main(String[] args) {
-    // Поместите сюда код для проверки работы ваших классов.
-  }
+  /**
+   * Проверяет работу классов, созданных
+   * в рамках выполнения задания.
+   *
+   * @param args аргументы командной строки.
+   */
+  public static void main(String[] args) {}
 }
