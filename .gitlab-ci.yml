@@ -16,12 +16,3 @@ stages:
     when: always
     paths:
       - build/reports/checkstyle/*.html
-
-Тестирование:
-  stage: check
-  script:
-    - gradle test
-  artifacts:
-    when: always
-    reports:
-      junit: build/test-results/test/**/TEST-*.xml
